@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Author="Kaleido Editor Version Release 5.40 Build 0148" Created="Thu Nov 13 15:56:36 GMT 2014" VirtualWidth="16000" VirtualHeight="9000" BGColor="FF181818" BGImage="" BGProperty="1" OutputMode="4">
+<TextLabel Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="14057" Top="8265" Right="15932" Bottom="8715"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val=""/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val=""/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FF000000" BGColor="FFFFFFFF" Flashing="0"/>
+<State Type="1" FGColor="FF000000" BGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF000000" BGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="FF000000" BGColor="FF996666" Flashing="0"/>
+</TextLabel>
+<Monitor Transparency="0" Channel="INPUT 01">
+<Bounds Left="0" Top="30" Right="7077" Bottom="4050"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="5" Top="44" Right="7072" Bottom="4020"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A1"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 01"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="164" Top="3795" Right="6897" Bottom="4050"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="1">
+<Address Mode="2" Val="INPUT 1"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val="01,51,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 01"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="6837" Top="120" Right="6990" Bottom="3705"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A1,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 02">
+<Bounds Left="7137" Top="60" Right="13990" Bottom="4065"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="7143" Top="59" Right="13970" Bottom="3900"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A2"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 02"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="7317" Top="3810" Right="13825" Bottom="4065"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 2"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 02"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="13765" Top="150" Right="13918" Bottom="3720"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A2,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+</Monitor>
+<TextLabel Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="14095" Top="2910" Right="15925" Bottom="3450"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="00:00:00"/>
+<Address Mode="6" Val="none"/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val=""/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FF000000" BGColor="FFFFFFFF" Flashing="0"/>
+<State Type="1" FGColor="FF000000" BGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF000000" BGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" BGColor="00000000" Flashing="0"/>
+</TextLabel>
+<Monitor Transparency="0" Channel="INPUT 03">
+<Bounds Left="-4" Top="5302" Right="2769" Bottom="7117"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="44" Top="5325" Right="2789" Bottom="6869"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A3"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 03"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="549" Top="6862" Right="2229" Bottom="7117"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 3"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 03"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="2589" Top="5392" Right="2742" Bottom="6772"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A3,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="10" Top="6847" Right="384" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_05"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="2424" Top="6862" Right="2769" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_06"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Timer Transparency="0" Type="1" Loop="0" PresetTime="01:50:00" DestinationTime="00000000" ID="01">
+<Bounds Left="14005" Top="5610" Right="15925" Bottom="6210"/>
+</Timer>
+<Monitor Transparency="0" Channel="INPUT 08">
+<Bounds Left="8" Top="7142" Right="2782" Bottom="8957"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="44" Top="7155" Right="2789" Bottom="8699"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A8"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 08"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="563" Top="8702" Right="2243" Bottom="8957"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 8"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 08"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="2572" Top="7232" Right="2725" Bottom="8612"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A8,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="23" Top="8687" Right="398" Bottom="8957"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_15"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="2437" Top="8702" Right="2782" Bottom="8957"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_16"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 04">
+<Bounds Left="2785" Top="5302" Right="5544" Bottom="7117"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="2819" Top="5325" Right="5563" Bottom="6869"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A4"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 04"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="3339" Top="6862" Right="5019" Bottom="7117"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 4"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 04"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="5379" Top="5392" Right="5532" Bottom="6772"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A4,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="2800" Top="6847" Right="3174" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_07"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="5199" Top="6862" Right="5544" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_08"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 09">
+<Bounds Left="2785" Top="7148" Right="5544" Bottom="8963"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="2819" Top="7155" Right="5563" Bottom="8699"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A9"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 09"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="3339" Top="8708" Right="5019" Bottom="8963"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 9"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 09"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="5349" Top="7238" Right="5502" Bottom="8618"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A9,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="2800" Top="8693" Right="3174" Bottom="8963"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_17"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="5199" Top="8708" Right="5544" Bottom="8963"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_18"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 05">
+<Bounds Left="5600" Top="5302" Right="8359" Bottom="7117"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="5593" Top="5325" Right="8337" Bottom="6869"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A5"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 05"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="6124" Top="6862" Right="7804" Bottom="7117"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 5"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 05"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="8179" Top="5392" Right="8332" Bottom="6772"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A5,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="1">
+<Bounds Left="5600" Top="6847" Right="5974" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_09"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="8014" Top="6862" Right="8359" Bottom="7117"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_10"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 10">
+<Bounds Left="5599" Top="7142" Right="8358" Bottom="8957"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="5593" Top="7155" Right="8337" Bottom="8699"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A10"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 10"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="6124" Top="8702" Right="7803" Bottom="8957"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 10"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 10"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="8163" Top="7232" Right="8316" Bottom="8612"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A10,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="5599" Top="8687" Right="5974" Bottom="8957"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_19"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="8013" Top="8702" Right="8358" Bottom="8957"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_20"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 06">
+<Bounds Left="8367" Top="5307" Right="11156" Bottom="7122"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="8397" Top="5325" Right="11141" Bottom="6869"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A6"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 06"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="8922" Top="6867" Right="10601" Bottom="7122"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 6"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 06"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="10976" Top="5397" Right="11129" Bottom="6777"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A6,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="8397" Top="6852" Right="8772" Bottom="7122"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_11"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="10811" Top="6867" Right="11156" Bottom="7122"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_12"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 11">
+<Bounds Left="8367" Top="7140" Right="11156" Bottom="8955"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="8397" Top="7155" Right="11141" Bottom="8699"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A11"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 11"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="8922" Top="8700" Right="10601" Bottom="8955"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 11"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 11"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="10946" Top="7230" Right="11099" Bottom="8610"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A11,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="8397" Top="8685" Right="8772" Bottom="8955"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_21"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="10811" Top="8700" Right="11156" Bottom="8955"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_22"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 07">
+<Bounds Left="11174" Top="5307" Right="13933" Bottom="7122"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="11186" Top="5325" Right="13930" Bottom="6869"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A7"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 07"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="11698" Top="6867" Right="13378" Bottom="7122"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 7"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 07"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="13753" Top="5397" Right="13906" Bottom="6777"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A7,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="11174" Top="6852" Right="11548" Bottom="7122"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_13"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="13588" Top="6867" Right="13933" Bottom="7122"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_14"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Monitor Transparency="0" Channel="INPUT 12">
+<Bounds Left="11186" Top="7140" Right="13945" Bottom="8955"/>
+<Video Transparency="0" Ratio="16:9" CustomRatio="16:9" ShowMarkers="0" Size="5" Show3DEffect="1" LeftCrop="0" RightCrop="0" TopCrop="0" BottomCrop="0">
+<Bounds Left="11186" Top="7155" Right="13930" Bottom="8699"/>
+<Assignment Type="0" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="A12"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 12"/>
+</SourceAddress>
+</Assignment>
+<MouseSingleClick ActionName="AudioMonitoring"/>
+<MouseDoubleClick ActionName="FullScreen"/>
+<Latching Type="0" Duration="10"/>
+<State Type="0" FGColor="00000000" Flashing="0"/>
+<State Type="1" FGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="00000000" Flashing="0"/>
+</Video>
+<UMD Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="11711" Top="8700" Right="13390" Bottom="8955"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="2">
+<Address Mode="2" Val="INPUT 12"/>
+<Address Mode="6" Val=""/>
+<Address Mode="1" Val=",0,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="Video 12"/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="1" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="2" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" ImageID="703" Flashing="0"/>
+</UMD>
+<Audio Transparency="3" Orientation="0" Activity="1" Scale="Analog Peak Meter - EBU PPM (IEC60268-10 type IIb)" ShowTick="1" ShowLabels="0" LabelColor="FFFFFFFF" Ballistic="1">
+<Bounds Left="13735" Top="7230" Right="13888" Bottom="8610"/>
+<Assignment Type="1" LinkOrder="1">
+<SourceAddress CurrentMode="3">
+<Address Mode="4" Val=",2"/>
+<Address Mode="3" Val="A12,1,1,2"/>
+<Address Mode="5" Val=",,1,2"/>
+</SourceAddress>
+</Assignment>
+<Phase Show="1" Zone1color="FF0000FF" Zone2color="FF0000FF" ZoneLimit="+1/8"/>
+</Audio>
+<Tally Transparency="0">
+<Bounds Left="11186" Top="8685" Right="11561" Bottom="8955"/>
+<Assignment Type="2" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_23"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+<State Type="1" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="2" ImageID="503" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_green.gif" Flashing="0"/>
+<State Type="3" ImageID="504" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_left_darkgreen.gif" Flashing="0"/>
+</Tally>
+<Tally Transparency="0">
+<Bounds Left="13600" Top="8700" Right="13945" Bottom="8955"/>
+<Assignment Type="2" LinkOrder="2">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val="GPI_24"/>
+</SourceAddress>
+</Assignment>
+<State Type="0" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+<State Type="1" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="2" ImageID="607" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_red.gif" Flashing="0"/>
+<State Type="3" ImageID="608" ImageName="/com/miranda/icontrol/kaleido/g2/images/tallies/tally_right_darkred.gif" Flashing="0"/>
+</Tally>
+</Monitor>
+<Logo Transparency="0" LogoImage="logokg2.gif">
+<Bounds Left="14380" Top="8250" Right="16300" Bottom="8730"/>
+</Logo>
+<TextLabel Transparency="0" Orientation="1" FontName="Arial">
+<Bounds Left="14095" Top="3570" Right="15925" Bottom="4110"/>
+<Assignment Type="4" LinkOrder="1">
+<SourceAddress CurrentMode="1">
+<Address Mode="2" Val="00:00:01"/>
+<Address Mode="6" Val="none"/>
+<Address Mode="1" Val="gateway,2,0"/>
+</SourceAddress>
+</Assignment>
+<Assignment Type="3" LinkOrder="1">
+<SourceAddress CurrentMode="0">
+<Address Mode="0" Val=""/>
+</SourceAddress>
+</Assignment>
+<Latching Type="0" Duration=""/>
+<State Type="0" FGColor="FF000000" BGColor="FFFFFFFF" Flashing="0"/>
+<State Type="1" FGColor="FF000000" BGColor="FF0000FF" Flashing="0"/>
+<State Type="2" FGColor="FF000000" BGColor="FF00FFFF" Flashing="0"/>
+<State Type="3" FGColor="FFFFFFFF" BGColor="00000000" Flashing="0"/>
+</TextLabel>
+</Layout>
