@@ -74,11 +74,11 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bespoke.Common">
-      <HintPath>..\deploy\Bespoke.Common.dll</HintPath>
+    <Reference Include="Bespoke.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=843a094264521388, processorArchitecture=x86">
+      <HintPath>lib\Bespoke-OSC-Library.1.0.0\Bespoke.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Bespoke.Common.Osc">
-      <HintPath>..\deploy\Bespoke.Common.Osc.dll</HintPath>
+    <Reference Include="Bespoke.Common.Osc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=843a094264521388, processorArchitecture=x86">
+      <HintPath>lib\Bespoke-OSC-Library.1.0.0\Bespoke.Common.Osc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -91,8 +91,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telnet">
-      <HintPath>..\deploy\Telnet.dll</HintPath>
+    <Reference Include="Telnet, Version=1.0.0.0, Culture=neutral">
+      <HintPath>lib\dotNetTelnet.1.0.0\Telnet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +126,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
