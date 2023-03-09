@@ -13,16 +13,16 @@ This application was developed around 2015 and received minor updates afterwards
 ## How use?
 - Step 1: You must create a dynamic address field in the Kedit and apply in to Kaleido
 
-![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/master/Kaleido%20example/kedit.png)
+![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/main/Kaleido%20example/kedit.png)
 
 - Step 2: Setup the predefined client on CasparCG Server with IP and Port
 
-![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/master/Kaleido%20example/server.png)
+![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/main/Kaleido%20example/server.png)
 
 
 - Step 3: Setup the application with IP address and Dynamic Address of Kaleido
 
-![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/master/Kaleido%20example/countdown.png)
+![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/main/Kaleido%20example/countdown.png)
 
 
 - Step 4: Test
@@ -36,7 +36,7 @@ You can test using a telnet client like Putty and after connect send:
 
 ## Kaleido Alto Example
 
-![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/master/Kaleido%20example/Kaleido.jpeg)
+![N|Solid](https://github.com/maxmuzy/CasparCG-CountDown/blob/main/Kaleido%20example/Kaleido.jpeg)
 
 
 
